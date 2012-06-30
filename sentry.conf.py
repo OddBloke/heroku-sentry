@@ -13,7 +13,7 @@ SENTRY_KEY = 'iPCTIZ6lW3ia/znEZUZ3g3RGC15KwjOmew3RI+vSDjcYHSW93ez9hQ=='
 # Set this to false to require authentication
 SENTRY_PUBLIC = False
 
-SENTRY_URL_PREFIX = 'http://floating-rain-7931.herokuapp.com'
+SENTRY_URL_PREFIX = 'http://sentry.daniel-watkins.co.uk'
 
 SENTRY_WEB_HOST = '0.0.0.0'
 SENTRY_WEB_PORT = os.environ.get('PORT', 80)
