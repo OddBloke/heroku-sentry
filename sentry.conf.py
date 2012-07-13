@@ -8,12 +8,12 @@ DATABASES = {
     'default': dj_database_url.config(default="postgres://localhost"),
 }
 
-SENTRY_KEY = 'iPCTIZ6lW3ia/znEZUZ3g3RGC15KwjOmew3RI+vSDjcYHSW93ez9hQ=='
+SENTRY_KEY = 'CHANGEME'
 
 # Set this to false to require authentication
 SENTRY_PUBLIC = False
 
-SENTRY_URL_PREFIX = 'http://sentry.daniel-watkins.co.uk'
+SENTRY_URL_PREFIX = 'http://CHANGEME'
 
 SENTRY_WEB_HOST = '0.0.0.0'
 SENTRY_WEB_PORT = os.environ.get('PORT', 80)
